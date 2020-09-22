@@ -16,7 +16,8 @@ class Song
     song = self.new
     song.title = title
     @title = title 
-    @@all << song 
+    @@all << song
+    song.artist = Artist 
   end
   
 end 
