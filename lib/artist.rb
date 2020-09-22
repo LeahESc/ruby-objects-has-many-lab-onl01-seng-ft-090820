@@ -15,8 +15,10 @@ class Artist
     song_obj.artist = self
   end 
   
-  def add_song_by_name(song_title)
-    song_title
+  def add_song_by_name(title)
+    song = Song.new 
+    song.title = @title 
+    song.artist = self
   end 
     
 end 
