@@ -12,4 +12,7 @@ class Song
     @@all
   end 
   
+  def add_by_name(title)
+    
+  
 end 
