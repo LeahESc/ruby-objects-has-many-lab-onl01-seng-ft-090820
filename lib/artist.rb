@@ -20,6 +20,7 @@ class Artist
     song.title = title 
     @songs << song 
     song.artist = self
+    song
   end 
     
 end 
