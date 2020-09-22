@@ -13,6 +13,8 @@ class Song
   end 
   
   def add_by_name(title)
-    
+    song = self.new
+    song.title = title
+  end
   
 end 
