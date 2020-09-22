@@ -12,6 +12,10 @@ class Song
     @@all
   end 
   
+  def artist_name 
+    self.artist ? self.artist.name : nil
+  end
+  
   # def add_song_by_name(title)
   #   song = self.new
   #   song.title = title
