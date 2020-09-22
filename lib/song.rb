@@ -12,11 +12,11 @@ class Song
     @@all
   end 
   
-  # def add_song_by_name(title)
-  #   song = self.new
-  #   song.title = title
-  #   @title = title 
-  #   @@all << song 
-  # end
+  def add_song_by_name(title)
+    song = self.new
+    song.title = title
+    @title = title 
+    @@all << song 
+  end
   
 end 
