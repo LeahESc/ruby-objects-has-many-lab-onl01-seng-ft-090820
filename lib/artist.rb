@@ -19,7 +19,7 @@ class Artist
     song = Song.new(title)
     song.title = title 
     @songs << song 
-    song.artist.name = self.name
+    song.artist = self
     song
   end 
     
