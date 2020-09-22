@@ -20,4 +20,6 @@ class Author
     post.title = title 
     post.author = self
   end 
+  
+  def self.post_count
 end 
